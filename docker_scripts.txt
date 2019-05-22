@@ -1,0 +1,13 @@
+启动 docker服务
+sudo service docker start
+
+查看docker的信息
+sudo docker info
+
+列出images
+sudo docker images
+
+列出constainers
+sudo docker ps -a
+
+
