@@ -10,4 +10,28 @@ sudo docker images
 列出constainers
 sudo docker ps -a
 
+启动container from image
+sudo docker run -i -t -p 10688:10688 -p 5888:6888 -p 10060:10060 -p 10061:10061 --name eas1 --privileged=true 7698f282e524
+
+运行container
+docker start d3ee4863852e
+
+关闭container
+docker stop d3ee4863852e
+
+删除container
+docker rm d3ee4863852e
+
+删除image
+sudo docker rmi fce289e99eb9
+
+退出并保持运行容器
+ctrl+q+p 
+
+进入container
+docker exec -it dc6a69ba5d05 /bin/bash
+
+Dockerfile
+RUN:container启动时就运行指令
+
 
