@@ -1,3 +1,5 @@
+############useful docker scripts#############
+
 docker build -t friendlyhello .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyhello  # Run "friendlyhello" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyhello         # Same thing, but in detached mode
@@ -56,4 +58,60 @@ RUN:container启动时就运行指令
 ####密码登陆:ssh ubuntu@3.16.188.86####
 ####进入root:ssh root@3.16.188.86####
 ####密码:**********####
+
+
+
+############useful git scripts#############
+
+修改的文件-----缓冲区-----本地git仓库-----远程git仓库
+
+###### add ######
+添加文件进入缓存区
+git add file
+
+添加多个文件
+git add ./*.py
+
+添加目录下所有文件
+git add -A
+
+###### branch ######
+转换branch
+git checkout dev
+
+显示branch
+git branch -a
+
+删除branch
+git branch -d mybranch
+
+###### commit ######
+将缓冲区内容交到git仓库
+commit并填写说明
+git commit -m "add something"
+
+自动将修改的文件加入缓冲区，再提交
+git commit -a -m "add something"
+
+###### diff ######
+工作目录与缓冲区的差异
+git diff
+
+工作目录与库版本的差异
+git diff HEAD
+
+缓冲区与库版本的差异
+git diff --cached
+
+###### merge ######
+将某个分支合并入当前分支
+git merge branchname
+
+###### pull ######
+将某个远程分支合并到本地git仓库
+git pull origin master
+
+###### push ######
+本地分支推送到远程分支
+git push origin master
 
