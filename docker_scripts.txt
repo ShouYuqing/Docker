@@ -63,7 +63,10 @@ RUN:container启动时就运行指令
 
 ############useful git scripts#############
 
+structure:
+
 修改的文件-----缓冲区-----本地git仓库-----远程git仓库
+
 
 ###### add ######
 添加文件进入缓存区
