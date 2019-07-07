@@ -57,6 +57,7 @@ RUN:container启动时就运行指令
 
 
 ####key登陆:ssh -i /Users/yuqings/Downloads/js_demo_key.pem ubuntu@3.16.188.86####
+ssh ubuntu@3.14.66.30
 ####密码登陆:ssh ubuntu@3.16.188.86####
 ####进入root:ssh root@3.16.188.86####
 ####密码:**********####
