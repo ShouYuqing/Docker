@@ -63,6 +63,8 @@ ssh ubuntu@3.14.66.30
 ####密码:**********####
 
 
+
+
 ############useful git scripts#############
 
 structure:
