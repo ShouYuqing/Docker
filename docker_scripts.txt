@@ -19,6 +19,7 @@ docker run username/repository:tag                   # Run image from a registry
 
 
 
+
 启动 docker服务
 sudo service docker start
 
