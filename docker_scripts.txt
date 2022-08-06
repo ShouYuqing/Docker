@@ -123,3 +123,16 @@ git pull origin master
 本地分支推送到远程分支
 git push origin master
 
+
+
+Shell:
+source: define variables in shell
+bash: run a new shell environment
+set: get all variables
+grep txt file: find filenames or file text
+ls -l: find files in the current directory
+source ~/.bashrc: refresh the environment with new amendments in environment
+
+
+
+ 
